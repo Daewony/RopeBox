@@ -1,6 +1,5 @@
 import {Point} from './point.js';
-import {Dialog} from './dialog_1.js';
-
+import {Dialog} from './dialog_2.js';
 class App {
     constructor() {
         this.canvas = document.createElement('canvas');
@@ -13,7 +12,7 @@ class App {
         this.curItem = null;
 
         this.items =[];
-        this.total = 1;
+        this.total = 5;
         for(let i =0; i<this.total; i++){
             this.items[i] = new Dialog();
         }
